@@ -1,0 +1,104 @@
+body{
+     background-color: #707174;
+     color: aliceblue;
+
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 16px;
+     font-weight: normal;
+     line-height: 1.6em;
+     margin: 0%;
+}
+
+.header-container{
+    margin: 10px 20px; 
+    border:  2px solid hsl(236, 73%, 85%);
+    border-radius: 30px;
+    text-align:  center;
+    /*background-image: url("../Images/clock_macro_numbers_arrows_73859_1920x1080.jpg");*/
+    background-repeat:  no-repeat;
+    background-position: 100px 200px;
+    background-image: url("../Images/micro.jpg");
+    background-position:  center top;
+}
+.header-container li{
+    text-shadow:  #070707;
+    display:  inline;
+    font-weight: bolder;
+    padding: 1em;
+    border-bottom: #c0c0c0 solid 1px;
+    font-size: 1.3em; 
+}
+
+.footer-container{
+    margin: 10px 20px; 
+    border:  2px solid hsl(236, 73%, 85%);
+    border-radius: 100px;
+    text-align:  center;
+    background-image: url("../Images/mic.jpG");
+    background-repeat:  no-repeat;
+    background-position: 10px 20px;
+    
+    background-position:  center top;
+}
+
+.footer-container li{
+    color: white;
+    text-shadow:  #070707;m
+    display: inline;
+    font-weight: bolder;
+    padding: 1em;
+    /*border-bottom: #c0c0c0 solid 1px;*/
+    font-size: 1.3em;
+}
+.footer-container a{
+    color:darkgray;
+}
+.header-container h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+}
+.footer-container h3{
+    color:darkgray;
+    padding: .5em;
+    text-shadow: #c0c0c0;
+    text-decoration: #707174;
+}
+a{
+    text-decoration:  none;
+    color:rgb(19, 3, 240);
+    
+}
+button{
+    background-color: darkgrey;
+    color: black;
+    border-radius: 1em;
+    padding: .3em;
+    margin:  auto;
+}
+
+button:hover{
+    background-color: whitesmoke;
+    color: darkgrey;
+}
+a:hover{
+    color: darkslategrey;
+}
+.container{
+    width: 90%; 
+    margin: auto;
+}
+ 
+.box-1{
+      
+    color: whitesmoke;
+    padding: 2px;  
+    margin-top: 2px;
+     
+}
+
+ul{
+    list-style:  none;
+}
+
+
+
